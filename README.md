@@ -6,7 +6,9 @@ Topic: Weather forecast with neural networks
 
 Source data: http://idojarasbudapest.hu/archivalt-idojaras
 
-With datas from October to December (2011-2020) I predicted 3 dates: 2020-10-28, 2020-11-03, 2020-11-24
+With weather datas from October to December (2011-2020) I predicted 3 dates' highest and lowest temperature: 2020-10-28, 2020-11-03, 2020-11-24
+
+For input data I used the previous day's lowest temperature, year and day of year
 
 Results for asked days in the uploaded notebook:
 2020-10-28 00:00:00  min_value:  11.742757797241211 , max value:  16.329105377197266
